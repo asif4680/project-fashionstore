@@ -56,10 +56,26 @@
 .right-header {
     font-size: 13px;
     display: flex;
+    align-items: center;
 }
+.search{
+    border-radius: 5px;
+    padding-inline:5px;
+    padding: 5px 10px;
+    width: 130px;
+    border-style: none;
+    border: 1px solid gray;
+    outline: none;
+}
+
+/* .search::placeholder{
+    color: black;
+} */
 
 .right-ul {
     display: flex;
+    /* background-color: black; */
+    align-items: center;
     color: black;
     list-style-type: none;
     text-decoration: none;

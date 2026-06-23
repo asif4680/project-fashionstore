@@ -54,8 +54,19 @@
     display: flex;
 }
 
+.search {
+    border-radius: 5px;
+    padding-inline: 5px;
+    padding: 5px 10px;
+    width: 130px;
+    border-style: none;
+    border: 1px solid gray;
+    outline: none;
+}
+
 .right-ul {
     display: flex;
+    align-items: center;
     color: black;
     list-style-type: none;
     text-decoration: none;
@@ -166,7 +177,7 @@
 }
 
 .sales-section {
-    background-color: rgb(122, 169, 160);
+    background-color: rgb(194, 216, 212);
     height: 100vh;
     display: flex;
     align-items: center;

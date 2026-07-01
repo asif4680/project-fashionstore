@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin:0 ;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
@@ -213,7 +213,8 @@
     width: 100%;
     grid-template-columns: repeat(1, 1fr);
     gap: 2rem;
-    /* margin-top:25px; */
+    margin:20px;
+     /* margin-top:25px; */
 }
 
 .new-arrivals {
@@ -396,7 +397,9 @@
         margin-right: 15px;
     }
 }
-
+.footer-heads{
+    margin-top:20px
+}
 .footer-bottom {
     display: flex;
     justify-content: space-between;

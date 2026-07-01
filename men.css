@@ -111,7 +111,7 @@
     text-decoration: none;
 } */
 
-.main-header {
+/* .main-header {
     padding: 0 10px;
     text-align: center;
     font-family: 'Libre Baskerville', serif;
@@ -121,9 +121,20 @@
     text-align: center;
     font-style: normal;
 
+} */
+
+.main-header a {
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.5rem;
+    letter-spacing: 6px;
+    text-transform: capitalize;
+    text-align: center;
+    font-style: normal;
 }
-
-
 .menu-btn {
     width: 20px;
     height: 20px;

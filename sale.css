@@ -107,7 +107,9 @@
     text-decoration: none;
 } */
 
-.main-header {
+.main-header a {
+    text-decoration: none;
+    color: black;
     padding: 0 10px;
     text-align: center;
     font-family: 'Libre Baskerville', serif;
@@ -116,7 +118,6 @@
     text-transform: capitalize;
     text-align: center;
     font-style: normal;
-
 }
 
 

@@ -155,6 +155,55 @@
     height: 100%;
 }
 
+.side-bar {
+    height: 100vh;
+    width: 300px;
+    background-color: blue;
+    /* display:flex; */
+}
+
+.side-nav {
+    display: flex;
+    /* top: 0; */
+    justify-content:center;
+    align-items: center;
+    /* padding: 20px 10px; */
+    /* background-color: white; */
+    /* border-bottom: 20px; */
+    z-index: 10;
+}
+
+.side-ul {
+    /* display: flex; */
+    list-style-type: none;
+    gap: 40px;
+    /* display: none; */
+}
+.side-ul li{
+    display: grid;
+    align-items: center;
+    justify-content:center;
+}
+.side-ul li a{
+    /* margin: 20px 00px 00px 80px; */
+    font-size: 29px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 5px;
+}
+
+.side-button img {
+    width: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-left: 300px;
+
+}
+
 /* header */
 
 

@@ -15,7 +15,7 @@
 
 .header-div {
     display: flex;
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     justify-content: space-between;
     align-items: center;
@@ -143,6 +143,91 @@
     width: 100%;
     height: 100%;
 }
+.side-bar {
+    position: fixed;
+    /* top: 100px; */
+    /* display:none; */
+    translate: -100%;
+    height: 100vh;
+    width: 300px;
+    background-color: rgb(0, 0, 0);
+    /* display:flex; */
+}
+
+.side-nav {
+    display: flex;
+    /* top:200px; */
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px 10px; */
+    /* background-color: white; */
+    /* border-bottom: 20px; */
+    z-index: 300;
+}
+.side-ul {
+    list-style-type: none;
+    /* margin-top: 20px; */
+}
+
+.side-ul input {
+    width: 120px;
+
+}
+
+.side-ul li {
+    /* color: white; */
+    display: grid;
+    align-items: start;
+    justify-content: start;
+}
+
+.side-ul span {
+    display: inline-block;
+    background-color: #9c0202;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 10px;
+    color: white;
+    left: 147px;
+    /* bottom: 160px; */
+}
+
+.side-ul li a {
+    /* margin: 20px 00px 00px 80px; */
+    font-size: 29px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding: 5px;
+}
+
+.icon-div button {
+    /* background-color:none; */
+    background: none;
+}
+
+.side-button {
+    color: none;
+    background-color: none;
+    border: none;
+}
+
+.side-button img {
+    width: 50px;
+    /* display: ; */
+    align-items: end;
+    justify-content: end;
+    margin-left: 250px;
+    /* color: none; */
+
+}
 
 /* header */
 
@@ -230,6 +315,7 @@
     width: 100%;
     overflow: hidden;
     position: relative;
+    /* z-index: 0; */
     /* background-color: blue; */
 }
 
@@ -237,6 +323,8 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    z-index: -1;
+    position: relative;
 }
 
 .left-head img:hover {
@@ -246,6 +334,7 @@
 }
 
 .section-left {
+    /* position: fixed; */
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -423,6 +512,7 @@
 
 .margin-div h2 {
     /* display: flex; */
+    /* position: fixed; */
     align-items: center;
     /* background-color: blue; */
     /* margin-top:20px; */

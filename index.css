@@ -281,6 +281,9 @@
     .header-div {
         padding: 10px 50px;
     }
+    .right-ul{
+        display: flex;
+    }
 }
 
 
@@ -452,7 +455,7 @@
     overflow: hidden;
     position: relative;
     z-index: -1;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .new-arrivals img {
@@ -512,7 +515,7 @@
 .quick-add {
     position: absolute;
     width: 100%;
-    bottom: 0;
+    bottom:0px;
     left: 0;
     right: 0;
     background-color: black;
@@ -534,6 +537,7 @@
     margin: 0 0 0 7px;
 
 }
+
 
 @media (min-width:576px) {
     .new-arrivals {

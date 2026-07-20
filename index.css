@@ -621,17 +621,26 @@
     font-size: 30px;
 }
 
+.lower-botton {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
 .lower-btn {
     font-size: 10px;
-    background-color: rgb(243, 241, 241);
     padding: 10px 20px;
     gap: 10px;
     text-transform: uppercase;
     letter-spacing: 2px;
+    background-color: #fafafa;
+    border: none;
 }
-
+.lower-btn a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
 .lower-btn:hover {
-    background-color: #8b6f47;
+    background-color: #855d25;
     color: white;
     cursor: pointer;
 }

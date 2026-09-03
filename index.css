@@ -5,8 +5,6 @@
     font-family: 'Outfit', sans-serif;
 }
 
-
-
 .header {
     display: grid;
     background-color: #fafaf8;
@@ -312,6 +310,7 @@
 }
 
 .left-section {
+    display: block;
     flex: 1;
     height: 100%;
     width: 100%;
@@ -335,6 +334,7 @@
 }
 
 .left-section img {
+    display: block;
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -504,13 +504,13 @@
     color: #888;
     letter-spacing: 2px;
     text-transform: uppercase;
-    margin: 0px 0px 5px;
+    /* margin: 0px 0px 5px; */
 }
 
 .arrivals h1 {
     font-size: 16px;
     font-family: 'Libre Baskerville', serif;
-    margin: 0px 0px 6px;
+    /* margin: 0px 0px 6px; */
 }
 
 .arrivals p {

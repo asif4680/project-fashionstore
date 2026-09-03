@@ -146,6 +146,7 @@
     /* background: none; */
     color: black;
     border-style: none;
+    margin-right: 10px;
 }
 
 .menu-btn img {
@@ -626,6 +627,7 @@
     justify-content: start;
     align-items: start;
 }
+
 .lower-btn {
     font-size: 10px;
     padding: 10px 20px;
@@ -635,10 +637,12 @@
     background-color: #fafafa;
     border: none;
 }
+
 .lower-btn a {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
+
 .lower-btn:hover {
     background-color: #855d25;
     color: white;

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Outfit:wght@100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Announcement -->
+    <div class="top-header">
+        <p>Free shipping on orders over ₹2000 · New collection now live</p>
+    </div>
+    <div class="header-div">
+        <nav class="left-header">
+            <ul class="left-ul">
+                <li><a class="new-in" href="index.html">New in</a></li>
+                <li><a class="women" href="women.html">Women</a></li>
+                <li><a class="men" href="men.html">Men</a></li>
+                <!-- <li><a class="sale" href="sale.html">Sale</a></li> -->
+            </ul>
+        </nav>
+        <h2 class="main-header">
+            <a href="index.html"> MAISON</a>
+        </h2>
+        <nav class="right-header">
+            <ul class="right-ul">
+                <input class="search" type="search" name="search" placeholder="Search">
+                <li><a class="wishlist" href="wishlist.html">Wishlist</a></li>
+                <li><a class="blog" href="blog.html">Blog <span>3</span></a></li>
+                 <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+        <button id="menu" class="menu-btn">
+            <img src="./assets/menu.svg" alt="menu icon">
+        </button>
+    </div>
+    <div id="remove" class="side-bar">
+        <div class="icon-div">
+            <button id="remove-btn" class="side-button">
+                <img src="./assets/remove.png" alt="menu icon">
+            </button>
+
+        </div>
+        <nav class="side-nav">
+            <ul class="side-ul">
+                <input type="search" name="search" placeholder="Search">
+                <li><a href="index.html">New in</a></li>
+                <li><a href="women.html">Women</a></li>
+                <li><a href="men.html">Men</a></li>
+                <!-- <li><a class="sale" href="sale.html">Sale</a></li> -->
+                <li><a href="wishlist.html">Wishlist</a></li>
+                <li><a href="blog.html">Blog <span>3</span></a></li>
+                 <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Cart -->
+    <main class="cart-container">
+
+        <h1 class="cart-title">Your Cart</h1>
+        <p class="cart-subtitle">
+            2 items in your bag
+        </p>
+
+
+        <div class="cart-layout">
+
+            <!-- Products -->
+            <section>
+
+                <div class="cart-items">
+
+                    <div class="cart-header">
+                        <span>Product</span>
+                        <span>Quantity</span>
+                        <span>Price</span>
+                    </div>
+
+
+                    <!-- Product 1 -->
+                    <div class="cart-item">
+
+                        <img class="product-image" src="./assets/4th image.webp" alt="">
+
+
+                        <div class="product-info">
+                            <h3>Wide Leg Trousers</h3>
+                            <p>
+                                MAISON BASICS<br>
+                                Size: M<br>
+                                Brown
+                            </p>
+
+                            <span class="remove">Remove</span>
+                        </div>
+
+                        <div class="quantity">
+                            <button>−</button>
+                            <span>1</span>
+                            <button>+</button>
+                        </div>
+
+                        <div class="price">
+                            ₹3,200
+                        </div>
+
+                    </div>
+
+
+                    <!-- Product 2 -->
+                    <div class="cart-item">
+
+                        <img class="product-image" src="./men asset/men 2nd image.jpg" alt="">
+
+                        <div class="product-info">
+                            <h3>Striped Linen <br>Shirt</h3>
+                            <p>
+                                MAISON LINEN<br>
+                                Size: M<br>
+                                Beige
+                            </p>
+
+                            <span class="remove">Remove</span>
+                        </div>
+
+                        <div class="quantity">
+                            <button>−</button>
+                            <span>1</span>
+                            <button>+</button>
+                        </div>
+
+                        <div class="price">
+                            ₹2,990
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Promo -->
+                <div class="promo">
+
+                    <div>
+                        <h3>Have a promo code?</h3>
+                        <p>Enter your code to receive a discount.</p>
+                    </div>
+
+                    <div class="promo-form">
+                        <input type="text" placeholder="PROMO CODE">
+                        <button>APPLY</button>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- Summary -->
+            <aside class="summary">
+
+                <h2>Order Summary</h2>
+
+                <div class="summary-row">
+                    <span>Subtotal</span>
+                    <span>₹6,190</span>
+                </div>
+
+                <div class="summary-row">
+                    <span>Shipping</span>
+                    <span>Free</span>
+                </div>
+
+                <div class="summary-row">
+                    <span>Tax</span>
+                    <span>₹402</span>
+                </div>
+
+                <div class="summary-row total">
+                    <span>Total</span>
+                    <span>₹6,592</span>
+                </div>
+
+                <p class="shipping-note">
+                    Free shipping is available on orders over ₹2,000.
+                    Your order will be carefully packed and delivered
+                    within 3–5 business days.
+                </p>
+
+                <button class="checkout">
+                    Proceed to Checkout
+                </button>
+
+                <a href="#" class="continue">
+                    Continue Shopping
+                </a>
+
+            </aside>
+
+        </div>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footer-grid">
+
+            <div class="footer-brand">
+                <h2>MAISON</h2>
+                <p>
+                    Quiet luxury for the modern wardrobe.<br>
+                    Designed with intention, crafted with care.
+                </p>
+            </div>
+
+            <div class="footer-column">
+                <h4>SHOP</h4>
+                <a href="index.html">New In</a>
+                <a href="women.html">Women</a>
+                <a href="men.html">Men</a>
+                <a href="#">Accessories</a>
+                <a href="cart.html">Sale</a>
+            </div>
+
+            <div class="footer-column">
+                <h4>HELP</h4>
+                <a href="#">Shipping</a>
+                <a href="#">Returns</a>
+                <a href="#">Size Guide</a>
+                <a href="#">FAQ</a>
+            </div>
+
+            <div class="footer-column">
+                <h4>COMPANY</h4>
+                <a href="#">Our Story</a>
+                <a href="#">Sustainability</a>
+                <a href="#">Careers</a>
+                <a href="#">Press</a>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            <span>© 2026 Maison. All rights reserved.</span>
+            <span>Privacy · Terms · Cookies</span>
+        </div>
+
+    </footer>
+    <script src="java/java.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>

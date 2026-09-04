@@ -162,6 +162,9 @@
     width: 300px;
     background-color: rgb(0, 0, 0);
     /* display:flex; */
+    z-index: 100;
+    top: 0;
+
 }
 
 .side-nav {
@@ -172,7 +175,6 @@
     /* padding: 20px 10px; */
     /* background-color: white; */
     /* border-bottom: 20px; */
-    z-index: 10;
 }
 
 .side-ul {
@@ -455,6 +457,7 @@
     width: 100%;
     grid-template-columns: repeat(1, 1fr);
     gap: 2rem;
+    overflow: hidden;
 }
 
 .new-arrivals {
